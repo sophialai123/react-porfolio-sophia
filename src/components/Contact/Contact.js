@@ -2,7 +2,6 @@ import React from 'react';
 import "./Contact.css";
 import { MdOutlineMail } from "react-icons/md";
 import { BsMessenger } from "react-icons/bs";
-import { FaWhatsappSquare } from "react-icons/fa";
 
 function Contact() {
   return (
@@ -24,10 +23,8 @@ function Contact() {
           <article className='contact-option'>
             <a href='https://m.me/pingping.lai2' target="_blank"><BsMessenger className='contact-icon' /></a>
             <h4>Messenger</h4>
-            <h5>sophia852686@gmail.com</h5>
             <a href='https://m.me/pingping.lai2' target="_blank">Send Messages</a>
           </article>
-
 
         </div>
         <form action=''>

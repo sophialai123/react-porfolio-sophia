@@ -1,38 +1,50 @@
 
-
-import project0 from "../Images/project0.png";
-import project1 from "../Images/project1.png";
-import project2 from "../Images/project2.png";
+import project0 from "../Images/project1.png";
+import project1 from "../Images/project2.png";
+import task from '../Images/task.png';
+import filmFinder from '../Images/film-finder.png';
 
 
 
 export const ProjectData = [
-  {
-    id: 0,
-    name: "Product-Landing-Page",
-    img: project0,
-    github: "https://github.com/sophialai123/Product-Landing-Page",
-    languages: "HTML & CSS ",
-    demo: "https://sophialai123.github.io/Product-Landing-Page/"
-  },
 
   {
-    id: 1,
+    id: 0,
     name: "TinDog-Start-master",
-    img: project1,
+    img: project0,
     github: "https://github.com/sophialai123/TinDog-Start-master",
     languages: "HTML & CSS & Boostrap",
     demo: "https://sophialai123.github.io/TinDog-Start-master/"
   },
   {
-    id: 2,
+    id: 1,
     name: "Drumkit Music",
-    img: project2,
+    img: project1,
     description: "",
     github: "https://github.com/sophialai123/Drumkit",
     languages: "HTML & CSS & JavaScript",
     demo: "https://sophialai123.github.io/Drumkit/"
   },
+  {
+    id: 2,
+    name: "Task Manager",
+    img: task,
+    description: "",
+    github: "https://github.com/sophialai123/Task-Planner",
+    languages: "HTML & CSS & Boostrap & JavaScript",
+    demo: "https://sophialai123.github.io/TaskManager/"
+
+  },
+  {
+    id: 3,
+    name: "Film Finder",
+    img: filmFinder,
+    description: "",
+    github: "https://github.com/sophialai123/film-finder",
+    languages: "HTML & CSS & Boostrap & JavaScript",
+    demo: "https://sophialai123.github.io/film-finder/"
+
+  }
 
 
 

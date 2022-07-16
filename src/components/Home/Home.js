@@ -5,7 +5,7 @@ import Navbar from "../Navbar/Navbar";
 
 function Home(props) {
   return (
-    <section id="home">
+    <section id="home" style={{ margin: "0 auto" }}>
       <Header />
       <Navbar />
     </section>

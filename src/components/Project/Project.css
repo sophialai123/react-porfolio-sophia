@@ -38,6 +38,8 @@
 
   #project {
     padding-top: 40%;
+    margin-bottom: 15%;
+
   }
 
   .project-container {
@@ -52,12 +54,18 @@
 
   #project {
     padding-top: 55%;
+    margin-bottom: 25%;
+
   }
 
   .project-container {
     grid-template-columns: 1fr;
     gap: 1rem;
 
+  }
+
+  .project-container .project-items {
+    width: fit-content;
   }
 
 }

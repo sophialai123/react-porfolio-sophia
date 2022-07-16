@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -12,100 +12,112 @@
 }
 
 /* CSS variables */
-:root{
-  --bg-color:#21325E;
-  --bg-variant-color:#5D8BF4;
-  --primary-color:#398AB9;
-  --primary--variant-color:rgb(13, 32, 13);
-  --white-color:white;
-  --light-color:lightgreen;
-  --transition:all 400ms ease;
-  --contanier-width-lg:75%;
-  --contanier-width-md:86%;
-  --contanier-width-sm:90%;
+:root {
+  --bg-color: #21325E;
+  --bg-variant-color: #5D8BF4;
+  --primary-color: #398AB9;
+  --primary--variant-color: rgb(13, 32, 13);
+  --white-color: white;
+  --light-color: lightgreen;
+  --transition: all 400ms ease;
+  --contanier-width-lg: 75%;
+  --contanier-width-md: 86%;
+  --contanier-width-sm: 90%;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   display: none;
 }
 
-body{
+body {
   font-family: 'Poppins', sans-serif;
   background-color: var(--bg-color);
   color: var(--white-color);
   line-height: 1.7;
- 
+
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15%;
 }
 
 /************** General Styles ***************/
-.container{
+.container {
   width: var(--contanier-width-lg);
   margin: 0 auto;
 
 }
 
-h1,h2,h3,h4,h5{
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-weight: 500;
 }
 
-h1{
+h1 {
   font-size: 2.5rem;
 }
 
-section{
-  margin-top: 8rem;
+section {
+  margin-top: 6rem;
   height: 100vh;
 }
 
-section h2{
-  margin:3rem;
-  color:var(--light-color);
+section h2 {
+  margin: 3rem;
+  color: var(--light-color);
   text-align: center;
 
 }
 
-.text-light{
-  color:var(--light--color);
+.text-light {
+  color: var(--light--color);
 }
 
-a{
-  color:var(--primary--color);
+a {
+  color: var(--primary--color);
   transition: var(--transition);
 
 }
 
-a:hover{
+a:hover {
   color: var(--white-color);
 
 }
 
-.btn{
-  width:max-content ;
+.btn {
+  width: max-content;
   display: inline-block;
-  color:var(--light-color);
+  color: var(--light-color);
   padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
   cursor: pointer;
-  border:1px solid var(--primary--color);
+  border: 1px solid var(--primary--color);
   transition: var(--transition);
 
 }
-.btn:hover{
+
+.btn:hover {
   background: var(--white-color);
-  color:var(--bg-color);
+  color: var(--bg-color);
   border-color: transparent;
 }
 
-.btn-primary{
-  color:var(--light-color);
+.btn-primary {
+  color: var(--light-color);
   background: var(--light--color);
 }
 
-img{
+img {
   display: block;
   width: 100%;
   object-fit: cover;
@@ -113,21 +125,25 @@ img{
 
 /******************Media Queries*******************/
 
-@media screen  and (max-width:1024px){
-  .container{
+@media screen and (max-width:1024px) {
+
+  .container {
     width: var(--contanier-width-md);
   }
-  section{
+
+  section {
     margin-top: 6rem;
   }
 }
 
 
-@media screen  and (max-width:600px){
-  .container{
+@media screen and (max-width:600px) {
+
+  .container {
     width: var(--contanier-width-sm);
   }
-  section > h2{
+
+  section>h2 {
     margin-bottom: 2rem;
   }
 }

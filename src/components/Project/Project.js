@@ -17,7 +17,7 @@ function Project() {
                 </div>
                 <h3>{item.name}</h3>
                 <p >{item.description}</p>
-                <p>Program languages: {item.languages}</p>
+                <p>Languages: {item.languages}</p>
                 <a className="btn" href={item.github} target="_blank">Github</a>
                 <a className="btn btn-primary" href={item.demo} target="_blank">Demo</a>
               </article>
