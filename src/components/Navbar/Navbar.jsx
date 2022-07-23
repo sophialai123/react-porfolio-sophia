@@ -8,9 +8,7 @@ import { FcContacts } from "react-icons/fc";
 function Navbar(props) {
 
   //change the color,if activeNav is true, className will be active
-  const [activeNav, setActiveNav] = useState("#")
-
-
+  const [activeNav, setActiveNav] = useState("#");
   return (
     <nav>
       <a href='#'
